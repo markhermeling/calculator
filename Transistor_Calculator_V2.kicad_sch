@@ -2007,6 +2007,16 @@
 	)
 	(wire
 		(pts
+			(xy -30.48 114.3) (xy -30.48 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94a918c1-2a08-4c1c-b9e2-53bca9d3b4b9")
+	)
+	(wire
+		(pts
 			(xy 127 39.37) (xy 127 72.39)
 		)
 		(stroke
@@ -2675,8 +2685,8 @@
 		)
 		(uuid "cc6d8b9f-d54b-4af2-83b1-6eeda0337a2d")
 	)
-	(label "Vlow"
-		(at -29.21 115.57 0)
+	(label "Vin2"
+		(at -30.48 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2686,7 +2696,18 @@
 		)
 		(uuid "6fe2617f-d4ba-4006-af3c-4f230e9c0feb")
 	)
-	(label "Vhigh"
+	(label "Vin1"
+		(at -46.99 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ce64869-a748-4218-b65b-1f129bfa20f4")
+	)
+	(label "Vinc"
 		(at -15.24 115.57 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2719,28 +2740,6 @@
 		)
 		(uuid "fb84f74a-aa0b-4ce4-8df0-36ae4b909fd6")
 	)
-	(global_label "Vin1"
-		(shape input)
-		(at 17.78 102.87 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4ff53772-2763-4f60-8c02-2680d607d6cc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.8171 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Vo1"
 		(shape input)
 		(at 270.51 113.03 0)
@@ -2763,28 +2762,6 @@
 			)
 		)
 	)
-	(global_label "Vinc"
-		(shape input)
-		(at 17.78 107.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "63ed7f7d-bfb0-4d14-8a67-6af430ce956d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.6962 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Vin2"
 		(shape input)
 		(at 17.78 105.41 0)
@@ -2795,9 +2772,31 @@
 			)
 			(justify left)
 		)
-		(uuid "7e4f72ac-e19a-4255-b6a7-73e389060113")
+		(uuid "6a1c31e8-3d35-465f-a3a1-f9e825163524")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 24.8171 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vin1"
+		(shape input)
+		(at 17.78 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "986ae94f-7398-4b75-81ff-8e17b7d927d4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.8171 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2820,6 +2819,28 @@
 		(uuid "a2f1fe69-e00e-4df1-af46-b33c6432c11b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 276.9423 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vinc"
+		(shape input)
+		(at 17.78 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "acd62de3-058e-42f8-8b3b-8dcea39bf723")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.6962 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4235,7 +4256,7 @@
 		(fields_autoplaced yes)
 		(uuid "44ad177f-8360-4566-87de-aff7a039b41b")
 		(property "Reference" "Vcc1"
-			(at -11.43 139.5701 0)
+			(at -10.16 139.5701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4244,7 +4265,7 @@
 			)
 		)
 		(property "Value" "5"
-			(at -11.43 142.1101 0)
+			(at -10.16 142.1101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4457,7 +4478,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at -29.21 124.46 0)
+		(at -30.48 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4466,7 +4487,7 @@
 		(fields_autoplaced yes)
 		(uuid "50bbbcc7-0881-4637-b59f-3151b75bb059")
 		(property "Reference" "#PWR01"
-			(at -29.21 130.81 0)
+			(at -30.48 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4475,7 +4496,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at -29.21 129.54 0)
+			(at -30.48 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4483,7 +4504,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -29.21 124.46 0)
+			(at -30.48 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4492,7 +4513,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -29.21 124.46 0)
+			(at -30.48 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4501,7 +4522,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at -29.21 124.46 0)
+			(at -30.48 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4531,8 +4552,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5380ceb8-e493-4755-a3f1-15edf73f3487")
-		(property "Reference" "V1"
-			(at -11.43 119.2501 0)
+		(property "Reference" "Vinc1"
+			(at -10.16 119.2501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4540,8 +4561,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5"
-			(at -11.43 121.7901 0)
+		(property "Value" "0"
+			(at -10.16 121.7901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4613,7 +4634,7 @@
 		(instances
 			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
-					(reference "V1")
+					(reference "Vinc1")
 					(unit 1)
 				)
 			)
@@ -5009,7 +5030,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:VDC")
-		(at -29.21 120.65 0)
+		(at -30.48 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5017,8 +5038,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6eb856a6-6720-480c-b02f-aa608ff88c2b")
-		(property "Reference" "Vlow1"
-			(at -24.13 119.2501 0)
+		(property "Reference" "Vin2"
+			(at -25.4 117.9801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5026,8 +5047,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0"
-			(at -24.13 121.7901 0)
+		(property "Value" "5"
+			(at -25.4 120.5201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5036,7 +5057,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -29.21 120.65 0)
+			(at -30.48 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5045,7 +5066,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
-			(at -29.21 120.65 0)
+			(at -30.48 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5054,7 +5075,7 @@
 			)
 		)
 		(property "Description" "Voltage source, DC"
-			(at -29.21 120.65 0)
+			(at -30.48 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5063,7 +5084,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at -29.21 120.65 0)
+			(at -30.48 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5072,7 +5093,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at -29.21 120.65 0)
+			(at -30.48 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5081,7 +5102,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at -29.21 120.65 0)
+			(at -30.48 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5099,7 +5120,7 @@
 		(instances
 			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
-					(reference "Vlow1")
+					(reference "Vin2")
 					(unit 1)
 				)
 			)
@@ -6174,6 +6195,71 @@
 			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at -46.99 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae08e7fb-c4b1-4e48-abfd-7a7c64b51e76")
+		(property "Reference" "#PWR05"
+			(at -46.99 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at -47.244 130.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -46.99 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -46.99 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at -46.99 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "915a0fe8-907f-44cc-b1ac-e1214e761ca0")
+		)
+		(instances
+			(project "Transistor_Calculator_V2"
+				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -7302,6 +7388,104 @@
 			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Q18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:VDC")
+		(at -46.99 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f082d9ef-908e-4751-9ea6-768b4e1ae70f")
+		(property "Reference" "Vin1"
+			(at -41.91 119.2501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at -41.91 121.7901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at -46.99 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
+			(at -46.99 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Voltage source, DC"
+			(at -46.99 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at -46.99 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at -46.99 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at -46.99 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "007ba346-ea1c-4853-bcbd-0c2527526df9")
+		)
+		(pin "2"
+			(uuid "c4b559cc-18ee-4dfc-9031-887a1a33b110")
+		)
+		(instances
+			(project "Transistor_Calculator_V2"
+				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
+					(reference "Vin1")
 					(unit 1)
 				)
 			)
