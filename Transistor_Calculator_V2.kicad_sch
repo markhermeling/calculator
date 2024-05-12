@@ -2676,28 +2676,6 @@
 		(uuid "cc6d8b9f-d54b-4af2-83b1-6eeda0337a2d")
 	)
 	(label "Vlow"
-		(at 17.78 105.41 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0619a2b8-e3eb-41ee-b4a6-48e19a93fab6")
-	)
-	(label "Vo1"
-		(at 270.51 113.03 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5f1b25ea-7064-4a04-9541-de8f4acc7123")
-	)
-	(label "Vlow"
 		(at -29.21 115.57 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2718,39 +2696,6 @@
 			(justify left bottom)
 		)
 		(uuid "7dd58764-969f-41b1-b89a-1a8ed5c823d1")
-	)
-	(label "Vlow"
-		(at 17.78 107.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8ef292da-f435-4288-9254-fb661416df81")
-	)
-	(label "Vo2"
-		(at 270.51 115.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bfb9f6d1-7b94-47de-b836-e3b485a18f3a")
-	)
-	(label "Vlow"
-		(at 17.78 102.87 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cac654f5-345f-4b43-83fb-7a03a523827c")
 	)
 	(label "Vcc"
 		(at 121.92 24.13 0)
@@ -2773,6 +2718,116 @@
 			(justify left bottom)
 		)
 		(uuid "fb84f74a-aa0b-4ce4-8df0-36ae4b909fd6")
+	)
+	(global_label "Vin1"
+		(shape input)
+		(at 17.78 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4ff53772-2763-4f60-8c02-2680d607d6cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.8171 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vo1"
+		(shape input)
+		(at 270.51 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "60d9dc9f-6d8e-474c-8dff-81cfa71efd68")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 276.9423 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vinc"
+		(shape input)
+		(at 17.78 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "63ed7f7d-bfb0-4d14-8a67-6af430ce956d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.6962 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vin2"
+		(shape input)
+		(at 17.78 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7e4f72ac-e19a-4255-b6a7-73e389060113")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.8171 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vo2"
+		(shape input)
+		(at 270.51 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a2f1fe69-e00e-4df1-af46-b33c6432c11b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 276.9423 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Transistor_BJT:2N3904")
