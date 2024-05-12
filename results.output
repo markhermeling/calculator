@@ -1,0 +1,48 @@
+******
+** ngspice-39 : Circuit level simulation program
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2022, The ngspice team.
+** Please get your ngspice manual from http://ngspice.sourceforge.net/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+** Creation Date: Sun Feb  5 13:44:35 UTC 2023
+******
+
+Note: No compatibility mode selected!
+
+
+Circuit: KiCad schematic
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+No. of Data Rows : 1
+vin1 = 0.000000e+00
+vin2 = 0.000000e+00
+vo1 = 4.716452e-02
+vo2 = 6.594476e-02
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+No. of Data Rows : 1
+vin1 = 0.000000e+00
+vin2 = 1.000000e+00
+vo1 = 4.999999e+00
+vo2 = 6.590933e-02
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+No. of Data Rows : 1
+vin1 = 1.000000e+00
+vin2 = 0.000000e+00
+vo1 = 4.999999e+00
+vo2 = 6.594490e-02
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+No. of Data Rows : 1
+vin1 = 1.000000e+00
+vin2 = 1.000000e+00
+vo1 = 4.716452e-02
+vo2 = 7.520437e-02
+ngspice-39 done
