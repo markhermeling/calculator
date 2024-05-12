@@ -6,7 +6,7 @@
 	//"image": "mcr.microsoft.com/devcontainers/base:jammy",
 	"image": "kicad/kicad:8.0.2",
 	"mounts" : [
-		"source=${localEnv:HOME}/.ssh,target=/home/user/.ssh,type=bind",
+		"source=${localEnv:HOME}/.ssh,target=/home/kicad/.ssh,type=bind",
 		],
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
