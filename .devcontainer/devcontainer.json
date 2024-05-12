@@ -4,7 +4,7 @@
 	"name": "Build",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	//"image": "mcr.microsoft.com/devcontainers/base:jammy",
-	"image": "kicad/kicad:7.0",
+	"image": "kicad/kicad:8.0.2",
 	"mounts" : [
 		"source=${localEnv:HOME}/.ssh,target=/home/user/.ssh,type=bind",
 		],
