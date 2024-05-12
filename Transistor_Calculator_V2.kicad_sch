@@ -2963,7 +2963,7 @@
 			(uuid "c2f60036-f87c-4f77-8a05-5a168b33eff5")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Q19")
 					(unit 1)
@@ -3029,7 +3029,7 @@
 			(uuid "3f230423-666f-45b3-a8ff-4346c1134e6c")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "#PWR02")
 					(unit 1)
@@ -3096,7 +3096,7 @@
 			(uuid "f9597836-55a2-4cf2-b2ee-f3adb5f6d748")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R24")
 					(unit 1)
@@ -3217,7 +3217,7 @@
 			(uuid "d7ecb0db-86dc-4a4d-a468-ad8f1713d1e0")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Q10")
 					(unit 1)
@@ -3284,7 +3284,7 @@
 			(uuid "2ad0b384-4a54-4624-830b-fae4f9d203bd")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R18")
 					(unit 1)
@@ -3405,7 +3405,7 @@
 			(uuid "ecf45f72-da25-4272-b4ac-3f1ffd33b0fb")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Q3")
 					(unit 1)
@@ -3472,7 +3472,7 @@
 			(uuid "d7db9e97-db51-4486-82c3-53c597a44f62")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R9")
 					(unit 1)
@@ -3539,7 +3539,7 @@
 			(uuid "6083e2eb-7750-4785-8536-fdc9cb4e6d98")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R8")
 					(unit 1)
@@ -3660,7 +3660,7 @@
 			(uuid "1e3145fe-09ce-4b65-96bf-954c47f5ad2c")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Q5")
 					(unit 1)
@@ -3727,7 +3727,7 @@
 			(uuid "d2e157b2-4de8-4933-a4ce-a419a8ddc9dc")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R26")
 					(unit 1)
@@ -3848,7 +3848,7 @@
 			(uuid "88123491-b91e-4c67-9969-c6ac60e05766")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Q11")
 					(unit 1)
@@ -3915,7 +3915,7 @@
 			(uuid "bac66822-ef97-442f-a58f-853fbb2f6c26")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R12")
 					(unit 1)
@@ -3982,7 +3982,7 @@
 			(uuid "a1fb3f52-7ede-4bb0-97d0-9a496c40e2c1")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R23")
 					(unit 1)
@@ -4049,7 +4049,7 @@
 			(uuid "a62dbe27-2d97-4ebc-862e-16e90f6499a3")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R17")
 					(unit 1)
@@ -4170,7 +4170,7 @@
 			(uuid "a490d97c-92a0-4f1f-97d5-b8a9c3d85b18")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Q13")
 					(unit 1)
@@ -4237,7 +4237,7 @@
 			(uuid "14f12586-4d2f-4026-b18b-fdd814e56708")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R25")
 					(unit 1)
@@ -4335,7 +4335,7 @@
 			(uuid "4c634940-7d49-439b-8730-e9b53ed8ba83")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Vcc1")
 					(unit 1)
@@ -4401,7 +4401,7 @@
 			(uuid "a2e6bae4-039a-499b-b92f-8a8e653204ee")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "#PWR03")
 					(unit 1)
@@ -4468,7 +4468,7 @@
 			(uuid "3ccc2ddb-4585-45b8-8b29-ab3120f2623a")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R6")
 					(unit 1)
@@ -4534,7 +4534,7 @@
 			(uuid "b5b96b65-4081-4ea8-9440-e5b2ea23daac")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "#PWR01")
 					(unit 1)
@@ -4632,7 +4632,7 @@
 			(uuid "0a8eb304-4a75-4084-bc3e-f2ef4b50fed8")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Vinc1")
 					(unit 1)
@@ -4699,7 +4699,7 @@
 			(uuid "ebc47589-6ac4-43c6-8465-22e5e3234855")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R27")
 					(unit 1)
@@ -4820,7 +4820,7 @@
 			(uuid "49db4143-bc78-4237-a3f3-34840addcffb")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Q16")
 					(unit 1)
@@ -4887,7 +4887,7 @@
 			(uuid "51f708e1-1020-4890-a3d2-5dfe83729931")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R5")
 					(unit 1)
@@ -4954,7 +4954,7 @@
 			(uuid "ba47f8fe-1033-4951-9139-e9f801ec2545")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R21")
 					(unit 1)
@@ -5020,7 +5020,7 @@
 			(uuid "85ca7eee-32a3-44e7-9bc0-ad8e781eedd0")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "#PWR04")
 					(unit 1)
@@ -5118,7 +5118,7 @@
 			(uuid "2a59ecc3-d8ff-4836-a740-9b951c8a9ded")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Vin2")
 					(unit 1)
@@ -5185,7 +5185,7 @@
 			(uuid "cc0fd0a5-78c0-4b76-b916-d2338739407a")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R2")
 					(unit 1)
@@ -5252,7 +5252,7 @@
 			(uuid "e86b48ba-30d8-44ef-bbe2-d50256c42a36")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R7")
 					(unit 1)
@@ -5319,7 +5319,7 @@
 			(uuid "c5ac37f9-1388-406b-b9fd-b4ec46da952b")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R11")
 					(unit 1)
@@ -5386,7 +5386,7 @@
 			(uuid "f20452ce-0e6d-4279-8cf5-ca4b96fc5f6d")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R20")
 					(unit 1)
@@ -5507,7 +5507,7 @@
 			(uuid "13afb499-d70d-4d39-a21b-a40cca7dbdde")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Q8")
 					(unit 1)
@@ -5574,7 +5574,7 @@
 			(uuid "8d21bcfc-57b2-4928-a056-7c1ff681d896")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R15")
 					(unit 1)
@@ -5695,7 +5695,7 @@
 			(uuid "d8297850-bf04-45d2-a82c-0f50680a399b")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Q4")
 					(unit 1)
@@ -5816,7 +5816,7 @@
 			(uuid "f4428cdb-2b65-4ca2-a3af-73c25bd0177c")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Q6")
 					(unit 1)
@@ -5883,7 +5883,7 @@
 			(uuid "94e58043-acca-47fb-bbe6-dd03941fed71")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R22")
 					(unit 1)
@@ -5950,7 +5950,7 @@
 			(uuid "62f576be-ed8e-4607-acfc-7cfc4d914dc4")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R3")
 					(unit 1)
@@ -6071,7 +6071,7 @@
 			(uuid "18957da5-e8a4-4962-b232-9fd610975d42")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Q17")
 					(unit 1)
@@ -6192,7 +6192,7 @@
 			(uuid "0ef23852-6991-44b0-9708-84bc5ed33ff2")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Q9")
 					(unit 1)
@@ -6257,7 +6257,7 @@
 			(uuid "915a0fe8-907f-44cc-b1ac-e1214e761ca0")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "#PWR05")
 					(unit 1)
@@ -6378,7 +6378,7 @@
 			(uuid "4fe8dd64-13f3-43a9-b444-d6681997f6aa")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Q7")
 					(unit 1)
@@ -6499,7 +6499,7 @@
 			(uuid "41de6949-077d-4312-8310-35fa88caa1af")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Q15")
 					(unit 1)
@@ -6566,7 +6566,7 @@
 			(uuid "31dea856-7456-4c6f-afd9-6af604354c7d")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R13")
 					(unit 1)
@@ -6633,7 +6633,7 @@
 			(uuid "084da9bb-b3f4-45ef-b93b-fd98cec1b984")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R19")
 					(unit 1)
@@ -6700,7 +6700,7 @@
 			(uuid "c0179439-2de6-4751-8220-4ce07e7f8fea")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R14")
 					(unit 1)
@@ -6821,7 +6821,7 @@
 			(uuid "2cb3b9a0-f6f8-45d2-9625-57612d0985af")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Q12")
 					(unit 1)
@@ -6888,7 +6888,7 @@
 			(uuid "683c9238-0583-42fc-b69e-e5608a97f3ed")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R10")
 					(unit 1)
@@ -7009,7 +7009,7 @@
 			(uuid "3c2b7656-8060-4d8e-bea9-ed3b7bc716db")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Q1")
 					(unit 1)
@@ -7076,7 +7076,7 @@
 			(uuid "aab1912d-c4c1-4f01-b973-4e01a68fad39")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R16")
 					(unit 1)
@@ -7197,7 +7197,7 @@
 			(uuid "bc7a61dd-d79c-4067-b716-d4bf6b97054f")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Q14")
 					(unit 1)
@@ -7264,7 +7264,7 @@
 			(uuid "28bc0014-b70c-4bd8-ab9a-5083ec51493d")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R28")
 					(unit 1)
@@ -7385,7 +7385,7 @@
 			(uuid "9b8d1ab9-bdc3-463f-975d-3a31ad0d2731")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Q18")
 					(unit 1)
@@ -7483,7 +7483,7 @@
 			(uuid "c4b559cc-18ee-4dfc-9031-887a1a33b110")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Vin1")
 					(unit 1)
@@ -7550,7 +7550,7 @@
 			(uuid "825364ef-d8dd-49d2-8cbb-160d3eb14fe7")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R1")
 					(unit 1)
@@ -7617,7 +7617,7 @@
 			(uuid "0a2700f1-01d2-4c88-9698-7e6c8cc3ce7e")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R4")
 					(unit 1)
@@ -7738,7 +7738,7 @@
 			(uuid "abd8ef87-bc33-403a-bce1-8ec7a92a4868")
 		)
 		(instances
-			(project "Transistor_Calculator_V2"
+			(project "Transistor_Calculator_V2-2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Q2")
 					(unit 1)
