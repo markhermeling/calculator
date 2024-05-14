@@ -1,4 +1,4 @@
-name: CodeSonar
+name: Truth_Table_Test
 on:            # Feature Branches
   pull_request:
     branches:
@@ -9,7 +9,7 @@ jobs:
     permissions: write-all
     runs-on: hermeling-runner-set
     container:
-      image: ghcr.io/codesecure-se/curl-cso-builder:8.1p0
+      image: kicad/kicad:8.0.2
     steps:
       - name: run tests
         run: run.sh > test_results.txt
