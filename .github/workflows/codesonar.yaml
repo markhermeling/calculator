@@ -15,7 +15,7 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
     steps:
       - name: debug
-        run: id ; ls -la
+        run: id ; ls -la; la -la ..
       - name: run tests
         run: cd calculator; source run.sh > test_results.txt
       - name: upload test results 
