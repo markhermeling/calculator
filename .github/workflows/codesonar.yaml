@@ -17,7 +17,7 @@ jobs:
       - name: debug
         run: id ; ls -la
       - name: run tests
-        run: ./run.sh > test_results.txt
+        run: source run.sh > test_results.txt
       - name: upload test results 
         uses: actions/upload-artifact@v2
         with:
