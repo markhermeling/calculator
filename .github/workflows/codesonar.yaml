@@ -13,6 +13,8 @@ jobs:
         credentials:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
+    env:
+        ACTIONS_STEP_DEBUG: true
     steps:
       - name: Checkout 
         uses: actions/checkout@v4
