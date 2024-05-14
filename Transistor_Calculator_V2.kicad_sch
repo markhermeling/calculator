@@ -10,6 +10,588 @@
 		(rev "1.0")
 	)
 	(lib_symbols
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:Conn_01x03_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R_US"
 			(pin_numbers hide)
 			(pin_names
@@ -180,30 +762,26 @@
 				)
 			)
 		)
-		(symbol "Simulation_SPICE:VDC"
-			(pin_numbers hide)
+		(symbol "Jumper:SolderJumper_2_Open"
 			(pin_names
-				(offset 0.0254)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "V"
-				(at 2.54 2.54 0)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "1"
-				(at 2.54 0 0)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -215,7 +793,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -224,7 +802,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Voltage source, DC"
+			(property "Description" "Solder Jumper, 2-pole, open"
 				(at 0 0 0)
 				(effects
 					(font
@@ -233,7 +811,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Pins" "1=+ 2=-"
+			(property "ki_keywords" "solder jumper SPST"
 				(at 0 0 0)
 				(effects
 					(font
@@ -242,7 +820,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Type" "DC"
+			(property "ki_fp_filters" "SolderJumper*Open*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -251,29 +829,34 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "SolderJumper_2_Open_0_1"
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
 					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "simulation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+					(fill
+						(type none)
 					)
-					(hide yes)
 				)
-			)
-			(symbol "VDC_0_0"
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
-						(xy -1.27 0.254) (xy 1.27 0.254)
+						(xy -0.254 1.016) (xy -0.254 -1.016)
 					)
 					(stroke
 						(width 0)
@@ -285,7 +868,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.762 -0.254) (xy -1.27 -0.254)
+						(xy 0.254 1.016) (xy 0.254 -1.016)
 					)
 					(stroke
 						(width 0)
@@ -295,10 +878,10 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0.254 -0.254) (xy -0.254 -0.254)
-					)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
 					(stroke
 						(width 0)
 						(type default)
@@ -307,45 +890,24 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 -0.254) (xy 0.762 -0.254)
-					)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(text "+"
-					(at 0 1.905 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
+						(type outline)
 					)
 				)
 			)
-			(symbol "VDC_0_1"
-				(circle
-					(center 0 0)
-					(radius 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "VDC_1_1"
+			(symbol "SolderJumper_2_Open_1_1"
 				(pin passive line
-					(at 0 5.08 270)
+					(at -3.81 0 0)
 					(length 2.54)
-					(name "~"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -361,9 +923,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 90)
+					(at 3.81 0 180)
 					(length 2.54)
-					(name "~"
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -371,6 +933,251 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Jumper:SolderJumper_3_Open"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_3_Open"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 3-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Solder Jumper SPDT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_3_Open_0_1"
+				(arc
+					(start -1.016 1.016)
+					(mid -2.0276 0)
+					(end -1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.016 1.016)
+					(mid -2.0276 0)
+					(end -1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.508 1.016)
+					(end 0.508 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.016) (xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 -1.016)
+					(mid 2.0276 0)
+					(end 1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 -1.016)
+					(mid 2.0276 0)
+					(end 1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_3_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -570,114 +1377,12 @@
 				)
 			)
 		)
-		(symbol "power:GND"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 54.61 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06416571-0ecf-4cdb-aa95-498fc40b9044")
-	)
-	(junction
-		(at 152.4 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c710c5a-2a02-449b-9ba9-a9421388145c")
 	)
 	(junction
 		(at 127 72.39)
@@ -728,10 +1433,10 @@
 		(uuid "2a0f25cc-a737-46ba-9abf-4f51c94ccaac")
 	)
 	(junction
-		(at 165.1 135.89)
+		(at 104.14 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "37316d1b-a39a-4fb5-ab40-23afcee00731")
+		(uuid "3f23c806-2321-4cf1-8e8f-c2ccf9c192f7")
 	)
 	(junction
 		(at 121.92 149.86)
@@ -750,12 +1455,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "471dbd09-eb49-428c-b520-a06ab32ffe66")
-	)
-	(junction
-		(at 153.67 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4ccafeec-f74c-44a7-818f-9e6c02ac3e73")
 	)
 	(junction
 		(at 198.12 31.75)
@@ -818,10 +1517,10 @@
 		(uuid "713384b9-ae22-4ae2-bcc1-74e478c4be9e")
 	)
 	(junction
-		(at 236.22 133.35)
+		(at 152.4 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7cf4491e-30ff-4825-8000-2b295738e4d5")
+		(uuid "78eaec35-58fe-4122-828b-69084c523b16")
 	)
 	(junction
 		(at 91.44 39.37)
@@ -842,6 +1541,12 @@
 		(uuid "87bd7e66-1d6e-47a6-90f3-760987378834")
 	)
 	(junction
+		(at 153.67 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b674d93-7f53-4f46-9277-2a2c2041347b")
+	)
+	(junction
 		(at 73.66 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -858,6 +1563,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a224719-cd9a-4689-9464-52ac4009147a")
+	)
+	(junction
+		(at 139.7 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aabad6df-eb22-467d-bfbd-f3b00ffc20c3")
 	)
 	(junction
 		(at 72.39 50.8)
@@ -896,6 +1607,12 @@
 		(uuid "c552e045-a0ac-4808-aa56-e9bff340fd1c")
 	)
 	(junction
+		(at 236.22 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9c80fe6-5f1f-4e1c-b380-db6d86af5c9d")
+	)
+	(junction
 		(at 58.42 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -930,6 +1647,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2060199-a649-41d0-852a-1eda0ef6e095")
+	)
+	(junction
+		(at 163.83 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e47f79cd-9eee-4126-8ecf-959e247e555f")
+	)
+	(junction
+		(at 104.14 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7d99f11-9748-45c3-a072-889e9f3eec01")
 	)
 	(junction
 		(at 29.21 102.87)
@@ -1014,16 +1743,6 @@
 			(type default)
 		)
 		(uuid "066d7e4b-bc5f-403a-9d2e-9c9a06f79894")
-	)
-	(wire
-		(pts
-			(xy 254 39.37) (xy 254 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08873f3d-0254-4fdc-8cf0-e088ca2052a5")
 	)
 	(wire
 		(pts
@@ -1187,6 +1906,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 177.8) (xy 106.68 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "220d2ce3-dbfa-444a-8b4e-c55d4d132348")
+	)
+	(wire
+		(pts
 			(xy 58.42 149.86) (xy 73.66 149.86)
 		)
 		(stroke
@@ -1217,7 +1946,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 177.8) (xy 106.68 177.8)
+			(xy 92.71 177.8) (xy 104.14 177.8)
 		)
 		(stroke
 			(width 0)
@@ -1234,16 +1963,6 @@
 			(type default)
 		)
 		(uuid "28aa4545-ae47-4b8d-a5e9-bc913f4ae3b6")
-	)
-	(wire
-		(pts
-			(xy 113.03 24.13) (xy 121.92 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28d887f4-553a-4e2f-aced-4c673f3d0d97")
 	)
 	(wire
 		(pts
@@ -1387,6 +2106,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 113.03) (xy 254 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3414ccf9-7293-44d0-8928-349d3c4d7492")
+	)
+	(wire
+		(pts
 			(xy 179.07 85.09) (xy 214.63 85.09)
 		)
 		(stroke
@@ -1394,6 +2123,16 @@
 			(type default)
 		)
 		(uuid "35b894d8-5165-4e81-a8b5-27fdecebc9bd")
+	)
+	(wire
+		(pts
+			(xy 104.14 167.64) (xy 106.68 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3685716c-d8b5-4051-b69f-e737cea263d3")
 	)
 	(wire
 		(pts
@@ -1424,16 +2163,6 @@
 			(type default)
 		)
 		(uuid "3ac2365f-64af-4c22-8770-237dd8ee02eb")
-	)
-	(wire
-		(pts
-			(xy 17.78 107.95) (xy 96.52 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c4b5a28-db2f-4f19-8da7-ef96718a5e89")
 	)
 	(wire
 		(pts
@@ -1587,23 +2316,13 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 195.58) (xy 92.71 193.04)
+			(xy 92.71 194.31) (xy 92.71 193.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "59bfdd99-40cf-4310-9bc6-2e6a2cfe3216")
-	)
-	(wire
-		(pts
-			(xy 165.1 121.92) (xy 165.1 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ac9dc7e-53a7-44ba-bde4-fec01b6ac807")
 	)
 	(wire
 		(pts
@@ -1624,6 +2343,16 @@
 			(type default)
 		)
 		(uuid "5c02b686-97e9-4a29-8aea-9e899a2c1fd4")
+	)
+	(wire
+		(pts
+			(xy 254 49.53) (xy 254 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ecec069-a94f-447a-aa21-7a0ff6bae89c")
 	)
 	(wire
 		(pts
@@ -1747,16 +2476,6 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 105.41) (xy 31.75 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7490ded1-657c-4a9b-a665-ce4986ea80d6")
-	)
-	(wire
-		(pts
 			(xy 113.03 31.75) (xy 121.92 31.75)
 		)
 		(stroke
@@ -1767,23 +2486,13 @@
 	)
 	(wire
 		(pts
-			(xy 127 72.39) (xy 146.05 72.39)
+			(xy 146.05 72.39) (xy 139.7 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "781f2d8e-6564-4871-9bf6-d620f62eda23")
-	)
-	(wire
-		(pts
-			(xy 153.67 156.21) (xy 176.53 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "788fa62f-4054-414a-b774-c5ecd69eaa4c")
 	)
 	(wire
 		(pts
@@ -1937,23 +2646,13 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 135.89) (xy 170.18 135.89)
+			(xy 127 39.37) (xy 127 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "904b391c-7803-4f6e-9fd1-b7c706657f7f")
-	)
-	(wire
-		(pts
-			(xy 17.78 102.87) (xy 29.21 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91947a2c-e9bf-4cda-a516-d61aa436eca8")
+		(uuid "904970bf-2d54-4f3d-8d3c-b41575a24499")
 	)
 	(wire
 		(pts
@@ -1987,7 +2686,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 133.35) (xy 236.22 133.35)
+			(xy 228.6 133.35) (xy 215.9 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2007,17 +2706,7 @@
 	)
 	(wire
 		(pts
-			(xy -30.48 114.3) (xy -30.48 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94a918c1-2a08-4c1c-b9e2-53bca9d3b4b9")
-	)
-	(wire
-		(pts
-			(xy 127 39.37) (xy 127 72.39)
+			(xy 127 58.42) (xy 127 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2087,6 +2776,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 132.08) (xy 165.1 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6537d81-dc3b-41af-ad00-275b516eb47e")
+	)
+	(wire
+		(pts
 			(xy 137.16 157.48) (xy 143.51 157.48)
 		)
 		(stroke
@@ -2124,6 +2823,36 @@
 			(type default)
 		)
 		(uuid "adfd1ecd-9675-46b3-a136-faae876a20c1")
+	)
+	(wire
+		(pts
+			(xy 163.83 83.82) (xy 163.83 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae3137a1-3109-48ae-a5a8-f6c7de2c0515")
+	)
+	(wire
+		(pts
+			(xy 160.02 144.78) (xy 175.26 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af0939d6-eb56-4f64-89a9-7ceeb1e0ef5a")
+	)
+	(wire
+		(pts
+			(xy 139.7 72.39) (xy 127 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af8e7337-33ea-40bb-8a71-6f3df01364d2")
 	)
 	(wire
 		(pts
@@ -2207,7 +2936,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 80.01) (xy 163.83 107.95)
+			(xy 163.83 107.95) (xy 163.83 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2217,7 +2946,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 135.89) (xy 165.1 135.89)
+			(xy 151.13 135.89) (xy 160.02 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2257,7 +2986,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 195.58) (xy 97.79 195.58)
+			(xy 95.25 194.31) (xy 92.71 194.31)
 		)
 		(stroke
 			(width 0)
@@ -2267,13 +2996,13 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 144.78) (xy 175.26 144.78)
+			(xy 22.86 102.87) (xy 29.21 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ce4f43ff-d750-47c6-96e6-787c045d6e2f")
+		(uuid "ce427c3a-0eb0-40cb-b5a5-82f5158f4e44")
 	)
 	(wire
 		(pts
@@ -2337,6 +3066,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 107.95) (xy 96.52 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5e444ce-1246-4dd3-b79e-376b97c73733")
+	)
+	(wire
+		(pts
 			(xy 73.66 167.64) (xy 73.66 193.04)
 		)
 		(stroke
@@ -2367,7 +3106,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 167.64) (xy 106.68 167.64)
+			(xy 96.52 167.64) (xy 104.14 167.64)
 		)
 		(stroke
 			(width 0)
@@ -2427,6 +3166,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 156.21) (xy 176.53 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed05775e-f5c4-45f0-a91a-36dfd60c90e2")
+	)
+	(wire
+		(pts
 			(xy 127 105.41) (xy 92.71 105.41)
 		)
 		(stroke
@@ -2454,6 +3203,16 @@
 			(type default)
 		)
 		(uuid "f4b45ddd-5b4b-4b6a-8ebb-611eb76df39a")
+	)
+	(wire
+		(pts
+			(xy 31.75 105.41) (xy 22.86 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f621dc40-c312-4cf0-9707-9dfa5e0f694c")
 	)
 	(wire
 		(pts
@@ -2685,171 +3444,6 @@
 		)
 		(uuid "cc6d8b9f-d54b-4af2-83b1-6eeda0337a2d")
 	)
-	(label "Vin2"
-		(at -30.48 115.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6fe2617f-d4ba-4006-af3c-4f230e9c0feb")
-	)
-	(label "Vin1"
-		(at -46.99 115.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7ce64869-a748-4218-b65b-1f129bfa20f4")
-	)
-	(label "Vinc"
-		(at -15.24 115.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7dd58764-969f-41b1-b89a-1a8ed5c823d1")
-	)
-	(label "Vcc"
-		(at 121.92 24.13 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ebc8afd7-33ad-4a24-8c0a-6d4a16e5f656")
-	)
-	(label "Vcc"
-		(at -15.24 135.89 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fb84f74a-aa0b-4ce4-8df0-36ae4b909fd6")
-	)
-	(global_label "Vo1"
-		(shape input)
-		(at 270.51 113.03 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "60d9dc9f-6d8e-474c-8dff-81cfa71efd68")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 276.9423 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Vin2"
-		(shape input)
-		(at 17.78 105.41 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6a1c31e8-3d35-465f-a3a1-f9e825163524")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.8171 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Vin1"
-		(shape input)
-		(at 17.78 102.87 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "986ae94f-7398-4b75-81ff-8e17b7d927d4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.8171 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Vo2"
-		(shape input)
-		(at 270.51 115.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a2f1fe69-e00e-4df1-af46-b33c6432c11b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 276.9423 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Vinc"
-		(shape input)
-		(at 17.78 107.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "acd62de3-058e-42f8-8b3b-8dcea39bf723")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.6962 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(symbol
 		(lib_id "Transistor_BJT:2N3904")
 		(at 213.36 138.43 0)
@@ -2908,51 +3502,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "2N3904.lib"
-			(at 213.36 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "2N3904"
-			(at 213.36 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 213.36 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 213.36 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 213.36 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "80a5dcf3-157e-46bc-b6be-28824d4deb23")
 		)
@@ -2963,7 +3512,7 @@
 			(uuid "c2f60036-f87c-4f77-8a05-5a168b33eff5")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Q19")
 					(unit 1)
@@ -2972,17 +3521,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at -15.24 125.73 0)
+		(lib_id "Connector:TestPoint")
+		(at 104.14 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "022440aa-246d-45bb-860a-7a9992467232")
-		(property "Reference" "#PWR02"
-			(at -15.24 132.08 0)
+		(uuid "0163d8a4-f36d-46d9-8068-be136004b68d")
+		(property "Reference" "TP4"
+			(at 103.886 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 106.68 165.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 109.22 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2990,16 +3556,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at -15.24 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -15.24 125.73 0)
+		(property "Datasheet" "~"
+			(at 109.22 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3007,17 +3565,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at -15.24 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at -15.24 125.73 0)
+		(property "Description" "test point"
+			(at 104.14 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3026,12 +3575,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "3f230423-666f-45b3-a8ff-4346c1134e6c")
+			(uuid "77e400bf-0cc6-403b-a785-4e8a5b91e3d8")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
-					(reference "#PWR02")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -3096,9 +3645,216 @@
 			(uuid "f9597836-55a2-4cf2-b2ee-f3adb5f6d748")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 275.59 115.57 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "050b1104-1b19-4aaf-8206-57f35c1d3bc3")
+		(property "Reference" "Output_Pins1"
+			(at 270.51 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 276.86 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm"
+			(at 275.59 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 275.59 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 275.59 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06f5c843-833f-4ef5-b453-9885f186a4e7")
+		)
+		(pin "2"
+			(uuid "5604197c-3861-49ff-9444-6b170b9f3785")
+		)
+		(instances
+			(project "Transistor_Calculator_V2"
+				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
+					(reference "Output_Pins1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 163.83 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06090a79-500e-4b83-98fc-823bd3f9df56")
+		(property "Reference" "TP2"
+			(at 168.91 83.1849 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 168.91 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 163.83 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 163.83 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff20eb15-416f-482f-8ffa-a37a93ad9ebf")
+		)
+		(instances
+			(project "Transistor_Calculator_V2"
+				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 165.1 135.89 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0aaaf171-8685-427d-9d6f-0b9528eb423b")
+		(property "Reference" "JP6"
+			(at 165.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 165.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 165.1 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 165.1 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a07a3770-0fc6-42b5-a1c1-35b47683300e")
+		)
+		(pin "1"
+			(uuid "46f970d3-bd39-48d7-b7bb-43663b61b730")
+		)
+		(pin "3"
+			(uuid "d9a4f019-449b-45f8-8ded-895bae6dc766")
+		)
+		(instances
+			(project "Transistor_Calculator_V2"
+				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
+					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -3162,51 +3918,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "2N3904.lib"
-			(at 212.09 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "2N3904"
-			(at 212.09 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 212.09 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 212.09 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 212.09 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "a891938a-73b9-42af-a9db-fee912c0ed45")
 		)
@@ -3217,7 +3928,7 @@
 			(uuid "d7ecb0db-86dc-4a4d-a468-ad8f1713d1e0")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Q10")
 					(unit 1)
@@ -3284,7 +3995,7 @@
 			(uuid "2ad0b384-4a54-4624-830b-fae4f9d203bd")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R18")
 					(unit 1)
@@ -3350,51 +4061,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "2N3904.lib"
-			(at 69.85 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "2N3904"
-			(at 69.85 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 69.85 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 69.85 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 69.85 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "e4b42550-c57c-47ae-9feb-86d4739776ca")
 		)
@@ -3405,7 +4071,7 @@
 			(uuid "ecf45f72-da25-4272-b4ac-3f1ffd33b0fb")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Q3")
 					(unit 1)
@@ -3472,7 +4138,7 @@
 			(uuid "d7db9e97-db51-4486-82c3-53c597a44f62")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R9")
 					(unit 1)
@@ -3539,9 +4205,147 @@
 			(uuid "6083e2eb-7750-4785-8536-fdc9cb4e6d98")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 254 53.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17fbd868-6ce4-45b4-8042-aed5974dd45d")
+		(property "Reference" "JP2"
+			(at 256.54 52.7049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 256.54 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 254 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 254 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e73c59b-3821-4fd5-afd3-c6d6599834ee")
+		)
+		(pin "2"
+			(uuid "02e1fb5d-904a-4797-9e3d-bc0e9afa3164")
+		)
+		(instances
+			(project "Transistor_Calculator_V2"
+				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 232.41 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1aec06e2-a3f1-4d37-b0f8-3c656e61f976")
+		(property "Reference" "JP3"
+			(at 232.41 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 232.41 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 232.41 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 232.41 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb603156-17d1-4432-bea9-cf46b558b829")
+		)
+		(pin "2"
+			(uuid "34258c68-0374-4f6d-b8f4-bde73fbabc49")
+		)
+		(instances
+			(project "Transistor_Calculator_V2"
+				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -3605,51 +4409,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "2N3904.lib"
-			(at 105.41 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "2N3904"
-			(at 105.41 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 105.41 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 105.41 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 105.41 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "6c37812f-9949-4051-941a-18cc1248e175")
 		)
@@ -3660,9 +4419,74 @@
 			(uuid "1e3145fe-09ce-4b65-96bf-954c47f5ad2c")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 118.11 24.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20002300-a552-4eb9-9e72-a979d1173616")
+		(property "Reference" "J1"
+			(at 117.475 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V"
+			(at 117.475 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm_LooseFit"
+			(at 118.11 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 118.11 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "281fcb55-bff7-4e41-bbc4-1512a7eb70e2")
+		)
+		(instances
+			(project "Transistor_Calculator_V2"
+				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -3727,7 +4551,7 @@
 			(uuid "d2e157b2-4de8-4933-a4ce-a419a8ddc9dc")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R26")
 					(unit 1)
@@ -3793,51 +4617,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "2N3904.lib"
-			(at 55.88 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "2N3904"
-			(at 55.88 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 55.88 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 55.88 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 55.88 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "55318c87-95cb-4f13-8f87-b6c62ebc69f8")
 		)
@@ -3848,7 +4627,7 @@
 			(uuid "88123491-b91e-4c67-9969-c6ac60e05766")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Q11")
 					(unit 1)
@@ -3915,7 +4694,7 @@
 			(uuid "bac66822-ef97-442f-a58f-853fbb2f6c26")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R12")
 					(unit 1)
@@ -3982,7 +4761,7 @@
 			(uuid "a1fb3f52-7ede-4bb0-97d0-9a496c40e2c1")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R23")
 					(unit 1)
@@ -4049,7 +4828,7 @@
 			(uuid "a62dbe27-2d97-4ebc-862e-16e90f6499a3")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R17")
 					(unit 1)
@@ -4115,51 +4894,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "2N3904.lib"
-			(at 71.12 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "2N3904"
-			(at 71.12 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 71.12 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 71.12 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 71.12 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "4e191dbf-7031-46af-9f46-566ae8328e0c")
 		)
@@ -4170,7 +4904,7 @@
 			(uuid "a490d97c-92a0-4f1f-97d5-b8a9c3d85b18")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Q13")
 					(unit 1)
@@ -4237,173 +4971,9 @@
 			(uuid "14f12586-4d2f-4026-b18b-fdd814e56708")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:VDC")
-		(at -15.24 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44ad177f-8360-4566-87de-aff7a039b41b")
-		(property "Reference" "Vcc1"
-			(at -10.16 139.5701 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5"
-			(at -10.16 142.1101 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at -15.24 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
-			(at -15.24 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Voltage source, DC"
-			(at -15.24 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at -15.24 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "DC"
-			(at -15.24 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "V"
-			(at -15.24 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ae369593-e550-4ca0-aa7b-ce7b6beec49f")
-		)
-		(pin "1"
-			(uuid "4c634940-7d49-439b-8730-e9b53ed8ba83")
-		)
-		(instances
-			(project "Transistor_Calculator_V2-2"
-				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
-					(reference "Vcc1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at -15.24 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b1c3cc0-bfef-401a-ae9a-4a51710d31f8")
-		(property "Reference" "#PWR03"
-			(at -15.24 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at -15.24 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -15.24 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -15.24 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at -15.24 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a2e6bae4-039a-499b-b92f-8a8e653204ee")
-		)
-		(instances
-			(project "Transistor_Calculator_V2-2"
-				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -4468,7 +5038,7 @@
 			(uuid "3ccc2ddb-4585-45b8-8b29-ab3120f2623a")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R6")
 					(unit 1)
@@ -4477,17 +5047,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at -30.48 124.46 0)
+		(lib_id "Connector:TestPoint")
+		(at 139.7 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "50bbbcc7-0881-4637-b59f-3151b75bb059")
-		(property "Reference" "#PWR01"
-			(at -30.48 130.81 0)
+		(uuid "54d8e9df-3e47-4c81-a945-58bdc6380205")
+		(property "Reference" "TP1"
+			(at 142.24 68.4529 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 142.24 70.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 144.78 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4495,16 +5083,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at -30.48 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -30.48 124.46 0)
+		(property "Datasheet" "~"
+			(at 144.78 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4512,17 +5092,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at -30.48 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at -30.48 124.46 0)
+		(property "Description" "test point"
+			(at 139.7 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4531,110 +5102,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b5b96b65-4081-4ea8-9440-e5b2ea23daac")
+			(uuid "b4274657-1d27-4dcb-b680-bbb38b426304")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:VDC")
-		(at -15.24 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5380ceb8-e493-4755-a3f1-15edf73f3487")
-		(property "Reference" "Vinc1"
-			(at -10.16 119.2501 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at -10.16 121.7901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at -15.24 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
-			(at -15.24 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Voltage source, DC"
-			(at -15.24 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at -15.24 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "DC"
-			(at -15.24 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "V"
-			(at -15.24 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "85f0158b-e080-4b27-a5a9-ea93ea1f1e8e")
-		)
-		(pin "2"
-			(uuid "0a8eb304-4a75-4084-bc3e-f2ef4b50fed8")
-		)
-		(instances
-			(project "Transistor_Calculator_V2-2"
-				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
-					(reference "Vinc1")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -4699,7 +5172,7 @@
 			(uuid "ebc47589-6ac4-43c6-8465-22e5e3234855")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R27")
 					(unit 1)
@@ -4765,51 +5238,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "2N3904.lib"
-			(at 134.62 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "2N3904"
-			(at 134.62 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 134.62 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 134.62 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 134.62 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "73a00e87-da08-475c-abda-d5acb93c1e5f")
 		)
@@ -4820,7 +5248,7 @@
 			(uuid "49db4143-bc78-4237-a3f3-34840addcffb")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Q16")
 					(unit 1)
@@ -4887,9 +5315,79 @@
 			(uuid "51f708e1-1020-4890-a3d2-5dfe83729931")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 127 54.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "677d031a-e276-4a12-8858-5821b677cb2f")
+		(property "Reference" "JP1"
+			(at 129.54 53.9749 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 129.54 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 127 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 127 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5786e8bf-4828-46ee-a067-4e31fa32b416")
+		)
+		(pin "2"
+			(uuid "867f8964-7b18-464b-95e1-9aa56a4bf939")
+		)
+		(instances
+			(project "Transistor_Calculator_V2"
+				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -4954,7 +5452,7 @@
 			(uuid "ba47f8fe-1033-4951-9139-e9f801ec2545")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R21")
 					(unit 1)
@@ -4963,17 +5461,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 97.79 195.58 90)
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 156.21 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6ea2c505-97aa-46f4-ac02-ac9cb53a2ee0")
-		(property "Reference" "#PWR04"
-			(at 104.14 195.58 0)
+		(uuid "6f2ada05-1cfc-4095-bc45-02b41dfb7b0b")
+		(property "Reference" "JP4"
+			(at 156.21 139.6482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 156.21 142.1882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 156.21 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4981,16 +5495,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 102.87 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 195.58 0)
+		(property "Datasheet" "~"
+			(at 156.21 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4998,17 +5504,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 97.79 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.79 195.58 0)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 156.21 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5017,110 +5514,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "85ca7eee-32a3-44e7-9bc0-ad8e781eedd0")
-		)
-		(instances
-			(project "Transistor_Calculator_V2-2"
-				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:VDC")
-		(at -30.48 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6eb856a6-6720-480c-b02f-aa608ff88c2b")
-		(property "Reference" "Vin2"
-			(at -25.4 117.9801 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5"
-			(at -25.4 120.5201 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at -30.48 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
-			(at -30.48 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Voltage source, DC"
-			(at -30.48 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at -30.48 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "DC"
-			(at -30.48 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "V"
-			(at -30.48 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3a70f174-9941-4a4b-a6ee-ebab172ba35f")
+			(uuid "a6fb636b-9869-40bc-8737-d6fece49f2f3")
 		)
 		(pin "2"
-			(uuid "2a59ecc3-d8ff-4836-a740-9b951c8a9ded")
+			(uuid "9abd46be-3662-4ac7-a83e-c84231d43eed")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
-					(reference "Vin2")
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -5185,7 +5587,7 @@
 			(uuid "cc0fd0a5-78c0-4b76-b916-d2338739407a")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R2")
 					(unit 1)
@@ -5252,7 +5654,7 @@
 			(uuid "e86b48ba-30d8-44ef-bbe2-d50256c42a36")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R7")
 					(unit 1)
@@ -5319,9 +5721,77 @@
 			(uuid "c5ac37f9-1388-406b-b9fd-b4ec46da952b")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 157.48 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c0ef4a4-75ca-49ae-8be4-894330013761")
+		(property "Reference" "JP5"
+			(at 157.48 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 157.48 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 157.48 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 157.48 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33fcafa2-0d17-4238-a349-6c6340b367f9")
+		)
+		(pin "2"
+			(uuid "117ab0b8-432e-4516-83e4-13f45d7bc3a0")
+		)
+		(instances
+			(project "Transistor_Calculator_V2"
+				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
+					(reference "JP5")
 					(unit 1)
 				)
 			)
@@ -5386,7 +5856,7 @@
 			(uuid "f20452ce-0e6d-4279-8cf5-ca4b96fc5f6d")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R20")
 					(unit 1)
@@ -5452,51 +5922,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "2N3904.lib"
-			(at 176.53 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "2N3904"
-			(at 176.53 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 176.53 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 176.53 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 176.53 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "75deca54-2a43-446b-aa62-6bb4fd5e88f6")
 		)
@@ -5507,7 +5932,7 @@
 			(uuid "13afb499-d70d-4d39-a21b-a40cca7dbdde")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Q8")
 					(unit 1)
@@ -5574,7 +5999,7 @@
 			(uuid "8d21bcfc-57b2-4928-a056-7c1ff681d896")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R15")
 					(unit 1)
@@ -5640,51 +6065,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "2N3904.lib"
-			(at 69.85 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "2N3904"
-			(at 69.85 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 69.85 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 69.85 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 69.85 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "3ac00611-4792-4682-ad34-a618ddf1b5f1")
 		)
@@ -5695,7 +6075,7 @@
 			(uuid "d8297850-bf04-45d2-a82c-0f50680a399b")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Q4")
 					(unit 1)
@@ -5761,51 +6141,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "2N3904.lib"
-			(at 158.75 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "2N3904"
-			(at 158.75 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 158.75 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 158.75 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 158.75 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "06b20f2c-e783-4194-b35f-526f5194e4f9")
 		)
@@ -5816,7 +6151,7 @@
 			(uuid "f4428cdb-2b65-4ca2-a3af-73c25bd0177c")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Q6")
 					(unit 1)
@@ -5883,7 +6218,7 @@
 			(uuid "94e58043-acca-47fb-bbe6-dd03941fed71")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R22")
 					(unit 1)
@@ -5950,9 +6285,80 @@
 			(uuid "62f576be-ed8e-4607-acfc-7cfc4d914dc4")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 17.78 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99b0d4a4-86d5-43e7-8ff2-a5e859c55766")
+		(property "Reference" "Input_Pins1"
+			(at 18.415 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 18.415 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x03_P4.6mm_D0.9mm_OD2.1mm"
+			(at 17.78 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 17.78 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 17.78 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8fe8a347-f15e-47ee-b28d-a1ec540bd813")
+		)
+		(pin "1"
+			(uuid "85dfe1b3-2879-4a13-961e-b4f641ec0f4f")
+		)
+		(pin "3"
+			(uuid "9696a8a5-ad04-428c-a81a-97de50fc1ead")
+		)
+		(instances
+			(project "Transistor_Calculator_V2"
+				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
+					(reference "Input_Pins1")
 					(unit 1)
 				)
 			)
@@ -6016,51 +6422,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "2N3904.lib"
-			(at 187.96 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "2N3904"
-			(at 187.96 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 187.96 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 187.96 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 187.96 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "5e341b48-a548-4ae7-93a4-40e27fd06433")
 		)
@@ -6071,7 +6432,7 @@
 			(uuid "18957da5-e8a4-4962-b232-9fd610975d42")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Q17")
 					(unit 1)
@@ -6137,51 +6498,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "2N3904.lib"
-			(at 176.53 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "2N3904"
-			(at 176.53 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 176.53 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 176.53 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 176.53 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "7e1358ec-8664-4761-93f7-cb18df6ec5db")
 		)
@@ -6192,7 +6508,7 @@
 			(uuid "0ef23852-6991-44b0-9708-84bc5ed33ff2")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Q9")
 					(unit 1)
@@ -6201,16 +6517,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at -46.99 125.73 0)
+		(lib_id "Connector:TestPoint")
+		(at 104.14 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ae08e7fb-c4b1-4e48-abfd-7a7c64b51e76")
-		(property "Reference" "#PWR05"
-			(at -46.99 132.08 0)
+		(uuid "ac73d15f-62c3-47bb-a3af-30146843fd1e")
+		(property "Reference" "TP3"
+			(at 102.87 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 106.68 175.768 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 109.22 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6218,16 +6552,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at -47.244 130.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -46.99 125.73 0)
+		(property "Datasheet" "~"
+			(at 109.22 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6235,17 +6561,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at -46.99 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at -46.99 125.73 0)
+		(property "Description" "test point"
+			(at 104.14 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6254,12 +6571,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "915a0fe8-907f-44cc-b1ac-e1214e761ca0")
+			(uuid "7247363a-d2e0-42e8-87d2-c75831c50db0")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
-					(reference "#PWR05")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -6323,51 +6640,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "2N3904.lib"
-			(at 158.75 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "2N3904"
-			(at 158.75 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 158.75 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 158.75 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 158.75 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "cf16a24f-c30c-4725-bd38-c2137b2a678f")
 		)
@@ -6378,7 +6650,7 @@
 			(uuid "4fe8dd64-13f3-43a9-b444-d6681997f6aa")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Q7")
 					(unit 1)
@@ -6444,51 +6716,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "2N3904.lib"
-			(at 119.38 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "2N3904"
-			(at 119.38 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 119.38 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 119.38 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 119.38 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "7c673109-9dc5-4058-9c68-7dae41061e43")
 		)
@@ -6499,7 +6726,7 @@
 			(uuid "41de6949-077d-4312-8310-35fa88caa1af")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Q15")
 					(unit 1)
@@ -6566,7 +6793,7 @@
 			(uuid "31dea856-7456-4c6f-afd9-6af604354c7d")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R13")
 					(unit 1)
@@ -6633,7 +6860,7 @@
 			(uuid "084da9bb-b3f4-45ef-b93b-fd98cec1b984")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R19")
 					(unit 1)
@@ -6700,7 +6927,7 @@
 			(uuid "c0179439-2de6-4751-8220-4ce07e7f8fea")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R14")
 					(unit 1)
@@ -6766,51 +6993,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "2N3904.lib"
-			(at 55.88 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "2N3904"
-			(at 55.88 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 55.88 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 55.88 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 55.88 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "29046d52-aecd-4718-9711-60e3dfee6ac4")
 		)
@@ -6821,7 +7003,7 @@
 			(uuid "2cb3b9a0-f6f8-45d2-9625-57612d0985af")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Q12")
 					(unit 1)
@@ -6888,7 +7070,7 @@
 			(uuid "683c9238-0583-42fc-b69e-e5608a97f3ed")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R10")
 					(unit 1)
@@ -6954,51 +7136,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "2N3904.lib"
-			(at 52.07 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "2N3904"
-			(at 52.07 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 52.07 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 52.07 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 52.07 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "c3c878e0-0377-4af9-bea0-b2957727e9ca")
 		)
@@ -7009,7 +7146,7 @@
 			(uuid "3c2b7656-8060-4d8e-bea9-ed3b7bc716db")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Q1")
 					(unit 1)
@@ -7076,9 +7213,74 @@
 			(uuid "aab1912d-c4c1-4f01-b973-4e01a68fad39")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 100.33 194.31 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e420a62f-a66c-4c48-8b85-bc3a31a3d1cb")
+		(property "Reference" "J2"
+			(at 99.695 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.695 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm_LooseFit"
+			(at 100.33 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 100.33 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f480aecb-9924-4ef4-aabf-7d6a9f2e8591")
+		)
+		(instances
+			(project "Transistor_Calculator_V2"
+				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -7142,51 +7344,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "2N3904.lib"
-			(at 119.38 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "2N3904"
-			(at 119.38 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 119.38 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 119.38 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 119.38 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "e8d43c3e-5a78-4b40-b387-453a35a8f0ff")
 		)
@@ -7197,7 +7354,7 @@
 			(uuid "bc7a61dd-d79c-4067-b716-d4bf6b97054f")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Q14")
 					(unit 1)
@@ -7264,7 +7421,7 @@
 			(uuid "28bc0014-b70c-4bd8-ab9a-5083ec51493d")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R28")
 					(unit 1)
@@ -7330,51 +7487,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "2N3904.lib"
-			(at 199.39 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "2N3904"
-			(at 199.39 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 199.39 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 199.39 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 199.39 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "54fdd2e7-a92f-4a6e-accc-fcd0fcd18842")
 		)
@@ -7385,107 +7497,9 @@
 			(uuid "9b8d1ab9-bdc3-463f-975d-3a31ad0d2731")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Q18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:VDC")
-		(at -46.99 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f082d9ef-908e-4751-9ea6-768b4e1ae70f")
-		(property "Reference" "Vin1"
-			(at -41.91 119.2501 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at -41.91 121.7901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at -46.99 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
-			(at -46.99 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Voltage source, DC"
-			(at -46.99 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at -46.99 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "DC"
-			(at -46.99 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "V"
-			(at -46.99 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "007ba346-ea1c-4853-bcbd-0c2527526df9")
-		)
-		(pin "2"
-			(uuid "c4b559cc-18ee-4dfc-9031-887a1a33b110")
-		)
-		(instances
-			(project "Transistor_Calculator_V2-2"
-				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
-					(reference "Vin1")
 					(unit 1)
 				)
 			)
@@ -7550,7 +7564,7 @@
 			(uuid "825364ef-d8dd-49d2-8cbb-160d3eb14fe7")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R1")
 					(unit 1)
@@ -7617,7 +7631,7 @@
 			(uuid "0a2700f1-01d2-4c88-9698-7e6c8cc3ce7e")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R4")
 					(unit 1)
@@ -7683,51 +7697,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "2N3904.lib"
-			(at 52.07 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "2N3904"
-			(at 52.07 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 52.07 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 52.07 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 52.07 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "5c718913-1645-4785-8ca6-1983fd095475")
 		)
@@ -7738,7 +7707,7 @@
 			(uuid "abd8ef87-bc33-403a-bce1-8ec7a92a4868")
 		)
 		(instances
-			(project "Transistor_Calculator_V2-2"
+			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Q2")
 					(unit 1)
