@@ -1,0 +1,31 @@
+name: Truth_Table_Test
+on:            # Feature Branches
+  pull_request:
+    branches:
+      - 'main'       
+  
+jobs:
+  Test_Truth_Table:
+    permissions: write-all
+    runs-on: hermeling-runner-set
+    container:
+        image: canuckmh/calculator:8.0.2 
+        credentials:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+    env:
+        ACTIONS_STEP_DEBUG: true
+    steps:
+      - name: Checkout 
+        uses: actions/checkout@v4
+      - name: debug
+        run: id ; ls -la; ls -la ..
+      - name: run tests
+        run: ./run.sh > test_results.txt
+      - name: upload test results 
+        uses: actions/upload-artifact@v4
+        with:
+            name: test_results
+            path: test_results.txt
+        
+            
