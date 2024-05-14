@@ -2,7 +2,7 @@ name: CodeSonar
 on:            # Feature Branches
   pull_request:
     branches:
-      - 'release/**'       
+      - 'main'       
   
 jobs:
   Test_Truth_Table:
