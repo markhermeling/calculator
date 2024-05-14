@@ -5,11 +5,14 @@ on:            # Feature Branches
       - 'main'       
   
 jobs:
+    container:
+        image: canuckmh/calculator:latest
+        credentials:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
   Test_Truth_Table:
     permissions: write-all
     runs-on: hermeling-runner-set
-    container:
-      image: kicad/kicad:8.0.2
     steps:
       - name: debug
         run: id ; ls -la
