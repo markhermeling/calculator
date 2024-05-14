@@ -1,0 +1,21 @@
+name: CodeSonar
+on:            # Feature Branches
+  pull_request:
+    branches:
+      - 'release/**'       
+  
+jobs:
+  Test_Truth_Table:
+    permissions: write-all
+    runs-on: hermeling-runner-set
+    container:
+      image: ghcr.io/codesecure-se/curl-cso-builder:8.1p0
+    steps:
+      - name: run tests
+        run: run.sh > test_results.txt
+      - name: upload test results 
+        uses: actions/upload-artifact@v2
+        with:
+            name: test_results
+            path: test_results.txt
+           
