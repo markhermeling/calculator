@@ -23,7 +23,7 @@ jobs:
       - name: run tests
         run: ./run.sh > test_results.txt
       - name: upload test results 
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
             name: test_results
             path: test_results.txt
