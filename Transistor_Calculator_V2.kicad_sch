@@ -5493,7 +5493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
+		(property "Sim.Pins" "1=C 2=B 3=E"
 			(at 69.85 80.01 0)
 			(effects
 				(font
