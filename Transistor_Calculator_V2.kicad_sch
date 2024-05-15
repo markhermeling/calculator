@@ -878,6 +878,12 @@
 		(uuid "c552e045-a0ac-4808-aa56-e9bff340fd1c")
 	)
 	(junction
+		(at 127 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6d5e955-6c4f-4cda-99e4-cd6ad6b5c1ed")
+	)
+	(junction
 		(at 236.22 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -888,6 +894,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce78eb41-a17b-4cff-83c8-0f70670bb8a6")
+	)
+	(junction
+		(at 132.08 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d50fb431-71fd-4669-9d11-d43fe092c9e8")
 	)
 	(junction
 		(at 72.39 85.09)
@@ -1245,6 +1257,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 20.32) (xy 127 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29d1c763-ccf7-4e6a-88c4-af7cf379d7c0")
+	)
+	(wire
+		(pts
 			(xy 58.42 157.48) (xy 58.42 162.56)
 		)
 		(stroke
@@ -1535,6 +1557,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 191.77) (xy 121.92 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52ebac90-b1c7-46b9-9a9a-d713c2738806")
+	)
+	(wire
+		(pts
 			(xy 43.18 167.64) (xy 31.75 167.64)
 		)
 		(stroke
@@ -1625,7 +1657,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 191.77) (xy 121.92 191.77)
+			(xy 175.26 191.77) (xy 132.08 191.77)
 		)
 		(stroke
 			(width 0)
@@ -1725,7 +1757,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 31.75) (xy 186.69 31.75)
+			(xy 121.92 31.75) (xy 127 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1772,6 +1804,26 @@
 			(type default)
 		)
 		(uuid "83c5185b-7177-4c24-96e5-74a9f9c488d1")
+	)
+	(wire
+		(pts
+			(xy 132.08 191.77) (xy 132.08 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84780c08-2ffd-4272-becd-225e859641af")
+	)
+	(wire
+		(pts
+			(xy 135.89 20.32) (xy 127 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84861ab1-cda1-4494-9210-42c243b9538a")
 	)
 	(wire
 		(pts
@@ -2175,6 +2227,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 31.75) (xy 186.69 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ced4d260-578a-40e3-a8b5-9a0abe1f766f")
+	)
+	(wire
+		(pts
 			(xy 161.29 85.09) (xy 179.07 85.09)
 		)
 		(stroke
@@ -2362,6 +2424,16 @@
 			(type default)
 		)
 		(uuid "f0f7eb54-e91b-4ac5-9eab-f8bb3b8686b7")
+	)
+	(wire
+		(pts
+			(xy 143.51 195.58) (xy 132.08 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f44d616e-d05c-43b4-9a96-5faf70bc04a3")
 	)
 	(wire
 		(pts
@@ -2758,6 +2830,28 @@
 		(uuid "f218a841-441f-4454-9ab6-a19ed18c5492")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 29.7762 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vcc"
+		(shape input)
+		(at 135.89 20.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fff12dbb-1c67-4586-93b3-985f65121eba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.141 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3335,7 +3429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
+		(property "Sim.Pins" "1=E 2=B 3=C"
 			(at 69.85 41.91 0)
 			(effects
 				(font
@@ -3679,6 +3773,72 @@
 			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 143.51 195.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22d9abf0-1152-4d88-ad2f-4a78ed2520b8")
+		(property "Reference" "#PWR05"
+			(at 149.86 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 148.59 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 143.51 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ac4cf16-78c4-4764-b048-c070482174bc")
+		)
+		(instances
+			(project "Transistor_Calculator_V2"
+				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5493,7 +5653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
+		(property "Sim.Pins" "1=E 2=B 3=C"
 			(at 69.85 80.01 0)
 			(effects
 				(font
