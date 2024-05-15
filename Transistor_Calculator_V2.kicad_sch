@@ -954,12 +954,6 @@
 		(uuid "5bd6ea70-e285-4963-9339-ac09b4ca260f")
 	)
 	(junction
-		(at 92.71 193.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f7a16f5-cf7a-4130-99df-89c11e92e935")
-	)
-	(junction
 		(at 137.16 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1681,23 +1675,13 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 193.04) (xy 99.06 193.04)
+			(xy 73.66 193.04) (xy 99.06 193.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4b59ac73-f879-4d1a-8ae5-881ae2e5b04f")
-	)
-	(wire
-		(pts
-			(xy 73.66 193.04) (xy 92.71 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4da582f1-5774-4617-96b6-3269242c153f")
 	)
 	(wire
 		(pts
@@ -1748,16 +1732,6 @@
 			(type default)
 		)
 		(uuid "58f3fccb-3490-4769-9053-9d9dbc1dc5f0")
-	)
-	(wire
-		(pts
-			(xy 92.71 194.31) (xy 92.71 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59bfdd99-40cf-4310-9bc6-2e6a2cfe3216")
 	)
 	(wire
 		(pts
@@ -2378,16 +2352,6 @@
 			(type default)
 		)
 		(uuid "ccb64b89-f040-4de1-97b3-dca6270f88d6")
-	)
-	(wire
-		(pts
-			(xy 95.25 194.31) (xy 92.71 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd4e5605-81fc-493f-bbb0-b1697dfc3f81")
 	)
 	(wire
 		(pts
@@ -6660,72 +6624,6 @@
 			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 100.33 194.31 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e420a62f-a66c-4c48-8b85-bc3a31a3d1cb")
-		(property "Reference" "J2"
-			(at 99.695 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 99.695 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm_LooseFit"
-			(at 100.33 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 100.33 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f480aecb-9924-4ef4-aabf-7d6a9f2e8591")
-		)
-		(instances
-			(project "Transistor_Calculator_V2"
-				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
-					(reference "J2")
 					(unit 1)
 				)
 			)
