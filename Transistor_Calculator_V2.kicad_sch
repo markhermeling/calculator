@@ -10,125 +10,6 @@
 		(rev "1.0")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x01_Pin"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01_Pin"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x01_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016) hide)
@@ -1002,12 +883,6 @@
 		(uuid "878b4eda-5ec8-4151-889e-2bdcf2e95daa")
 	)
 	(junction
-		(at 113.03 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "87bd7e66-1d6e-47a6-90f3-760987378834")
-	)
-	(junction
 		(at 73.66 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1565,7 +1440,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 31.75) (xy 113.03 31.75)
+			(xy 107.95 31.75) (xy 121.92 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1882,16 +1757,6 @@
 			(type default)
 		)
 		(uuid "747b8833-4ce1-4a4e-b0cf-095c684f9648")
-	)
-	(wire
-		(pts
-			(xy 113.03 31.75) (xy 121.92 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "776b3e7d-52ef-445f-80e6-2db3683957eb")
 	)
 	(wire
 		(pts
@@ -2402,16 +2267,6 @@
 			(type default)
 		)
 		(uuid "d423daf9-e609-4e90-930b-db9592e2bbf7")
-	)
-	(wire
-		(pts
-			(xy 113.03 24.13) (xy 113.03 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d44828bb-b26b-49cb-a8bd-a934321e0350")
 	)
 	(wire
 		(pts
@@ -3629,71 +3484,6 @@
 			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 118.11 24.13 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "20002300-a552-4eb9-9e72-a979d1173616")
-		(property "Reference" "J1"
-			(at 117.475 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5V"
-			(at 117.475 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm_LooseFit"
-			(at 118.11 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 118.11 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "281fcb55-bff7-4e41-bbc4-1512a7eb70e2")
-		)
-		(instances
-			(project "Transistor_Calculator_V2"
-				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
-					(reference "J1")
 					(unit 1)
 				)
 			)
