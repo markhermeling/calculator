@@ -4604,7 +4604,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "5"
 			(at -68.58 101.4701 0)
 			(effects
 				(font
@@ -5149,7 +5149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79ab0521-c29b-442c-93a6-fc034f489f0e")
-		(property "Reference" "Vinc1"
+		(property "Reference" "Vinc"
 			(at -36.83 98.9301 0)
 			(effects
 				(font
@@ -5231,7 +5231,7 @@
 		(instances
 			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
-					(reference "Vinc1")
+					(reference "Vinc")
 					(unit 1)
 				)
 			)
