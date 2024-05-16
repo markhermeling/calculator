@@ -1560,6 +1560,12 @@
 		(uuid "06416571-0ecf-4cdb-aa95-498fc40b9044")
 	)
 	(junction
+		(at 124.46 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "123a70ad-79cc-440d-9a80-ba628ec5bb4e")
+	)
+	(junction
 		(at 127 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1612,6 +1618,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38bb54b4-672b-445b-b77b-7ea6103bd0d8")
+	)
+	(junction
+		(at 114.3 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c5de776-4e86-4691-b6ac-6856dc73dced")
 	)
 	(junction
 		(at 104.14 177.8)
@@ -1984,6 +1996,16 @@
 			(type default)
 		)
 		(uuid "066d7e4b-bc5f-403a-9d2e-9c9a06f79894")
+	)
+	(wire
+		(pts
+			(xy 114.3 193.04) (xy 121.92 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09116b9b-fedc-4b72-af44-27730230ebe7")
 	)
 	(wire
 		(pts
@@ -2887,7 +2909,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 31.75) (xy 186.69 31.75)
+			(xy 121.92 31.75) (xy 124.46 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3217,7 +3239,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 193.04) (xy 121.92 193.04)
+			(xy 99.06 193.04) (xy 114.3 193.04)
 		)
 		(stroke
 			(width 0)
@@ -3544,6 +3566,16 @@
 			(type default)
 		)
 		(uuid "d5e444ce-1246-4dd3-b79e-376b97c73733")
+	)
+	(wire
+		(pts
+			(xy 124.46 31.75) (xy 186.69 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7019f5f-cef7-4ba0-9283-62599b731408")
 	)
 	(wire
 		(pts
@@ -4997,6 +5029,73 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
+		(at 124.46 26.67 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f50abf7-9cd6-4536-8bf8-f4dfc6eb6096")
+		(property "Reference" "J3"
+			(at 125.73 26.0349 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5V_Out"
+			(at 125.73 28.5749 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm_LooseFit"
+			(at 124.46 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 124.46 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f31ad4f4-c90b-499d-8a94-a0b70d8a0d6d")
+		)
+		(instances
+			(project "Transistor_Calculator_V2"
+				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
 		(at 118.11 24.13 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5013,7 +5112,7 @@
 				)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "5V_In"
 			(at 117.475 21.59 0)
 			(effects
 				(font
@@ -5122,6 +5221,73 @@
 			(project "Transistor_Calculator_V2"
 				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
 					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 114.3 198.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21548dd8-d17b-4b7c-be02-86354d7c9727")
+		(property "Reference" "J4"
+			(at 115.57 196.2149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GND_Out"
+			(at 115.57 198.7549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm_LooseFit"
+			(at 114.3 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 114.3 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ff68502-1a46-4739-976e-67e121090548")
+		)
+		(instances
+			(project "Transistor_Calculator_V2"
+				(path "/4e74c2aa-3410-4407-95d8-73d62854742b"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -8486,7 +8652,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GND_In"
 			(at 99.695 191.77 0)
 			(effects
 				(font
