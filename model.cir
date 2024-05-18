@@ -1,0 +1,74 @@
+.title KiCad schematic
+.include "C:/Users/alex/Documents/GitHub/Calculator/calculator/2N3904.lib"
+Q10 Vo1 Net-_Q10-B_ GND 2N3904
+Q9 Net-_Q8-E_ Net-_Q9-B_ GND 2N3904
+R8 Vo1 /Vcc 47k
+R12 Net-_Q6-C_ /Vcc 220k
+Q7 Net-_Q10-B_ Net-_Q7-B_ Net-_Q6-C_ 2N3904
+R11 Net-_Q8-B_ Net-_Q6-C_ 220k
+Q8 Net-_Q10-B_ Net-_Q8-B_ Net-_Q8-E_ 2N3904
+R14 Net-_Q8-E_ /Vcc 220k
+R15 /Vcc Net-_Q10-B_ 220k
+R13 Net-_Q7-B_ Net-_Q8-E_ 220k
+R10 Vinc Net-_Q9-B_ 220k
+Q6 Net-_Q6-C_ Net-_Q6-B_ GND 2N3904
+R9 Net-_Q5-C_ Net-_Q6-B_ 220k
+R24 Net-_Q16-C_ /Vcc 47k
+Q15 Net-_Q14-E_ Net-_Q15-B_ GND 2N3904
+Q16 Net-_Q16-C_ Net-_Q14-C_ GND 2N3904
+Q14 Net-_Q14-C_ Net-_Q14-B_ Net-_Q14-E_ 2N3904
+Q18 Net-_Q17-C_ Net-_Q18-B_ GND 2N3904
+R27 Net-_Q17-C_ /Vcc 220k
+Q19 Vo2 Net-_Q17-C_ GND 2N3904
+R26 Net-_Q13-C_ Net-_Q18-B_ 220k
+R25 Net-_Q16-C_ Net-_Q17-B_ 220k
+Q17 Net-_Q17-C_ Net-_Q17-B_ GND 2N3904
+R28 Vo2 /Vcc 47k
+Q1 Net-_Q1-C_ Net-_Q1-B_ GND 2N3904
+Q2 Net-_Q2-C_ Net-_Q2-B_ Net-_Q1-C_ 2N3904
+Q5 Net-_Q5-C_ Net-_Q2-C_ GND 2N3904
+R1 Vin1 Net-_Q1-B_ 220k
+R3 Net-_Q3-B_ Net-_Q1-C_ 220k
+R23 Net-_Q14-C_ /Vcc 220k
+R21 Vinc Net-_Q14-B_ 220k
+R22 Net-_Q5-C_ Net-_Q15-B_ 220k
+R16 Net-_Q13-C_ /Vcc 47k
+Q13 Net-_Q13-C_ Net-_Q11-C_ GND 2N3904
+R17 Net-_Q2-C_ /Vcc 220k
+R4 Net-_Q5-C_ /Vcc 47k
+R6 Net-_Q2-B_ Net-_Q3-E_ 220k
+R7 Net-_Q3-E_ /Vcc 220k
+R5 Net-_Q1-C_ /Vcc 220k
+R2 Vin2 Net-_Q4-B_ 220k
+Q4 Net-_Q3-E_ Net-_Q4-B_ GND 2N3904
+Q3 Net-_Q2-C_ Net-_Q3-B_ Net-_Q3-E_ 2N3904
+Q11 Net-_Q11-C_ Net-_Q11-B_ Net-_Q11-E_ 2N3904
+R20 Net-_Q11-C_ /Vcc 220k
+R19 Vin2 Net-_Q11-B_ 220k
+R18 Vin1 Net-_Q12-B_ 220k
+Q12 Net-_Q11-E_ Net-_Q12-B_ GND 2N3904
+Vin2 Vin2 GND DC 5 
+Vin1 Vin1 GND DC 5 
+Vcc1 /Vcc GND DC 5 
+Vinc1 Vinc GND DC 0 
+
+.control
+alter vin1 0
+alter vin2 0
+op
+print vin1 vin2 vo1 vo2 
+alter vin1 0
+alter vin2 1
+op
+print vin1 vin2 vo1 vo2 
+alter vin1 1
+alter vin2 0
+op
+print vin1 vin2 vo1 vo2 
+alter vin1 1
+alter vin2 1
+op
+print vin1 vin2 vo1 vo2 
+quit
+.endc
+.end
