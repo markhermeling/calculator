@@ -2313,6 +2313,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:2N3904")
+		(at 54.61 36.83 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13508da9-2750-4bae-afe5-f113faf7c6c0")
+		(property "Reference" "Q2"
+			(at 49.53 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3904"
+			(at 49.53 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92L_HandSolder"
+			(at 49.53 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(at 54.61 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 54.61 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 54.61 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VBIC"
+			(at 54.61 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 54.61 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2c695141-db4e-45ab-925d-cd826f70fd0b")
+		)
+		(pin "3"
+			(uuid "50c1b370-e583-4fab-83f4-f98fc7f15254")
+		)
+		(pin "1"
+			(uuid "0cd07473-3678-44e8-839a-351fe3a1aef1")
+		)
+		(instances
+			(project "Transistor_Calculator_SW_Panel"
+				(path "/5be18d76-227e-4602-ae3f-7639f6fbbc7a"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 212.09 36.83 90)
 		(unit 1)
@@ -2504,6 +2607,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" "NPN"
+			(at 25.4 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VBIC"
+			(at 25.4 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 25.4 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1fd7f3a5-eeea-4513-956a-0fa2e469e546")
 		)
@@ -2517,6 +2647,109 @@
 			(project "Transistor_Calculator_SW_Panel"
 				(path "/5be18d76-227e-4602-ae3f-7639f6fbbc7a"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N3904")
+		(at 138.43 36.83 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2329dfa8-b845-40eb-b4d9-e7bf65f9526b")
+		(property "Reference" "Q5"
+			(at 133.35 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3904"
+			(at 133.35 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92L_HandSolder"
+			(at 133.35 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(at 138.43 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 138.43 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 138.43 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VBIC"
+			(at 138.43 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 138.43 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "778ef01e-2e98-4e22-94a2-345960acfa53")
+		)
+		(pin "3"
+			(uuid "52bb4215-254a-4aff-a8cc-374da8cc95a6")
+		)
+		(pin "1"
+			(uuid "b2d11522-ad15-4d0f-b8c5-d972c6d8cafa")
+		)
+		(instances
+			(project "Transistor_Calculator_SW_Panel"
+				(path "/5be18d76-227e-4602-ae3f-7639f6fbbc7a"
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -2748,82 +2981,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2N3904")
-		(at 138.43 36.83 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3c33aff5-7eaa-4699-9f8f-12991dc1f09b")
-		(property "Reference" "Q5"
-			(at 133.35 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N3904"
-			(at 133.35 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92L_HandSolder"
-			(at 133.35 34.925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 138.43 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 138.43 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ee51611c-2c89-42f5-9b08-c7007c224f42")
-		)
-		(pin "3"
-			(uuid "1d8a0aa1-60c1-4876-84c5-199adf5cfdb2")
-		)
-		(pin "1"
-			(uuid "d9343fb8-613e-42b0-8bbd-6183346bd4ac")
-		)
-		(instances
-			(project "Transistor_Calculator_SW_Panel"
-				(path "/5be18d76-227e-4602-ae3f-7639f6fbbc7a"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 63.5 36.83 90)
 		(unit 1)
@@ -2885,82 +3042,6 @@
 			(project "Transistor_Calculator_SW_Panel"
 				(path "/5be18d76-227e-4602-ae3f-7639f6fbbc7a"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:2N3904")
-		(at 172.72 36.83 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "45c60200-61eb-4bba-a0b8-f4c09fb21204")
-		(property "Reference" "Q6"
-			(at 167.64 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N3904"
-			(at 167.64 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92L_HandSolder"
-			(at 167.64 34.925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 172.72 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 172.72 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4e85a65b-e4f0-48bf-a594-2e0c61054f9c")
-		)
-		(pin "3"
-			(uuid "dc7fe46e-f4a2-4524-9301-fb09260c58ad")
-		)
-		(pin "1"
-			(uuid "a78be594-fe29-4f0c-8556-37f70ce99c44")
-		)
-		(instances
-			(project "Transistor_Calculator_SW_Panel"
-				(path "/5be18d76-227e-4602-ae3f-7639f6fbbc7a"
-					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -3168,81 +3249,6 @@
 			(project "Transistor_Calculator_SW_Panel"
 				(path "/5be18d76-227e-4602-ae3f-7639f6fbbc7a"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:2N3904")
-		(at 110.49 36.83 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4d94621b-5cb4-441a-89a1-76b7a23ab86d")
-		(property "Reference" "Q4"
-			(at 105.41 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N3904"
-			(at 104.648 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92L_HandSolder"
-			(at 105.41 34.925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 110.49 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 110.49 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1ab27cdb-2425-4f4a-be2c-eb41ad24e4cc")
-		)
-		(pin "3"
-			(uuid "20da8df3-2295-4012-9639-6c5ffc5c7ec6")
-		)
-		(pin "1"
-			(uuid "5a3bf4d3-ef3d-421d-92c9-5ee676927c9e")
-		)
-		(instances
-			(project "Transistor_Calculator_SW_Panel"
-				(path "/5be18d76-227e-4602-ae3f-7639f6fbbc7a"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -3526,6 +3532,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:2N3904")
+		(at 203.2 36.83 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b9f15cc-91ef-4f3b-949b-36402bfb397c")
+		(property "Reference" "Q7"
+			(at 198.12 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3904"
+			(at 198.12 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92L_HandSolder"
+			(at 198.12 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(at 203.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 203.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 203.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VBIC"
+			(at 203.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 203.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bca6cffe-ba66-4568-ad55-b865342e0279")
+		)
+		(pin "3"
+			(uuid "7b68efc7-bb62-4c32-93a4-ec1c2be54e85")
+		)
+		(pin "1"
+			(uuid "d84cf50d-8570-4483-8af6-b55f45b8c928")
+		)
+		(instances
+			(project "Transistor_Calculator_SW_Panel"
+				(path "/5be18d76-227e-4602-ae3f-7639f6fbbc7a"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Nidec_CAS-120A1")
 		(at 182.88 44.45 90)
 		(unit 1)
@@ -3590,82 +3699,6 @@
 			(project "Transistor_Calculator_SW_Panel"
 				(path "/5be18d76-227e-4602-ae3f-7639f6fbbc7a"
 					(reference "SW6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:2N3904")
-		(at 54.61 36.83 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6e357f3c-f75d-4157-ac02-51f983230d46")
-		(property "Reference" "Q2"
-			(at 49.53 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N3904"
-			(at 49.53 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92L_HandSolder"
-			(at 49.53 34.925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 54.61 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 54.61 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "87f1cca5-8b25-45d9-b91e-26e3a53dac31")
-		)
-		(pin "3"
-			(uuid "0c538c03-1fc3-40d4-8850-41ed29fa8ed3")
-		)
-		(pin "1"
-			(uuid "72db1864-3d2a-4c48-a749-00ada823c994")
-		)
-		(instances
-			(project "Transistor_Calculator_SW_Panel"
-				(path "/5be18d76-227e-4602-ae3f-7639f6fbbc7a"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -3953,15 +3986,16 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:2N3904")
-		(at 82.55 36.83 180)
+		(at 110.49 36.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "825ff224-4707-4370-95e3-a3f878a0ee84")
-		(property "Reference" "Q3"
-			(at 77.47 35.5599 0)
+		(fields_autoplaced yes)
+		(uuid "7c153f33-3862-4497-bcc7-86413f6b60b7")
+		(property "Reference" "Q4"
+			(at 105.41 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3970,7 +4004,7 @@
 			)
 		)
 		(property "Value" "2N3904"
-			(at 78.486 37.592 0)
+			(at 105.41 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3979,7 +4013,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92L_HandSolder"
-			(at 77.47 34.925 0)
+			(at 105.41 34.925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3990,7 +4024,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 82.55 36.83 0)
+			(at 110.49 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4000,7 +4034,34 @@
 			)
 		)
 		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 82.55 36.83 0)
+			(at 110.49 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 110.49 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VBIC"
+			(at 110.49 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 110.49 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4009,18 +4070,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "ee4e447a-d2da-44c0-93ef-9eb9c850e594")
+			(uuid "273a2177-0d22-41ae-9cb4-0aa83076c073")
 		)
 		(pin "3"
-			(uuid "20193d67-a081-4dda-ac2d-63f4bb699d74")
+			(uuid "147cdafc-141f-4c0b-a1ff-4cef7429d93b")
 		)
 		(pin "1"
-			(uuid "3d505ac9-6bec-46c9-9e57-ac1300105c42")
+			(uuid "4f88a3c8-a8bd-4882-813f-b1821d123012")
 		)
 		(instances
 			(project "Transistor_Calculator_SW_Panel"
 				(path "/5be18d76-227e-4602-ae3f-7639f6fbbc7a"
-					(reference "Q3")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -4721,6 +4782,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:2N3904")
+		(at 232.41 36.83 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbde2100-573a-4910-9fa4-279e2a0daf20")
+		(property "Reference" "Q8"
+			(at 227.33 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3904"
+			(at 227.33 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92L_HandSolder"
+			(at 227.33 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(at 232.41 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 232.41 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 232.41 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VBIC"
+			(at 232.41 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 232.41 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5ed6f5ae-a0ad-47bd-91c2-2fca6fd80111")
+		)
+		(pin "3"
+			(uuid "766178b2-cb20-4c59-881d-5bd50fbb7d3b")
+		)
+		(pin "1"
+			(uuid "c8e96da7-4946-4b32-b207-20416f6fb514")
+		)
+		(instances
+			(project "Transistor_Calculator_SW_Panel"
+				(path "/5be18d76-227e-4602-ae3f-7639f6fbbc7a"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
 		(at 30.48 11.43 270)
 		(unit 1)
@@ -4859,16 +5023,16 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:2N3904")
-		(at 203.2 36.83 180)
+		(at 172.72 36.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d27c197d-2af1-4603-ba8d-c561aed19cf7")
-		(property "Reference" "Q7"
-			(at 198.12 35.5599 0)
+		(uuid "d040b4b0-2fef-44d1-98fc-847d3d8d175b")
+		(property "Reference" "Q6"
+			(at 167.64 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4877,7 +5041,7 @@
 			)
 		)
 		(property "Value" "2N3904"
-			(at 198.12 38.0999 0)
+			(at 167.64 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4886,7 +5050,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92L_HandSolder"
-			(at 198.12 34.925 0)
+			(at 167.64 34.925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4897,7 +5061,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 203.2 36.83 0)
+			(at 172.72 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4907,7 +5071,34 @@
 			)
 		)
 		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 203.2 36.83 0)
+			(at 172.72 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 172.72 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VBIC"
+			(at 172.72 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 172.72 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4916,18 +5107,121 @@
 			)
 		)
 		(pin "2"
-			(uuid "87c2837e-9658-461c-b7b4-464000781fd9")
+			(uuid "3c926677-37a1-4cdf-bb4f-312b07559e77")
 		)
 		(pin "3"
-			(uuid "e3750e87-cca0-4bdc-bc8a-88ed501f8b98")
+			(uuid "35bd242e-4cc9-40af-98e5-5e67c1b16b45")
 		)
 		(pin "1"
-			(uuid "c7f98adb-ec33-4395-9319-c1dd5f2988ed")
+			(uuid "430c730e-cdd2-4c7e-8974-5741204ee1d9")
 		)
 		(instances
 			(project "Transistor_Calculator_SW_Panel"
 				(path "/5be18d76-227e-4602-ae3f-7639f6fbbc7a"
-					(reference "Q7")
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N3904")
+		(at 82.55 36.83 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1c56bb0-a49f-4a0d-9973-8c96312b843b")
+		(property "Reference" "Q3"
+			(at 77.47 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3904"
+			(at 77.47 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92L_HandSolder"
+			(at 77.47 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(at 82.55 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 82.55 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 82.55 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VBIC"
+			(at 82.55 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 82.55 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7a3518f9-7cbe-4c69-95d3-5e8b86be90bb")
+		)
+		(pin "3"
+			(uuid "5e423ebe-afce-4865-a112-4dc7a29d0975")
+		)
+		(pin "1"
+			(uuid "9592affe-1e84-4d10-b85b-3e60d4b24e83")
+		)
+		(instances
+			(project "Transistor_Calculator_SW_Panel"
+				(path "/5be18d76-227e-4602-ae3f-7639f6fbbc7a"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -4998,82 +5292,6 @@
 			(project "Transistor_Calculator_SW_Panel"
 				(path "/5be18d76-227e-4602-ae3f-7639f6fbbc7a"
 					(reference "SW8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:2N3904")
-		(at 232.41 36.83 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e49318c5-c708-4267-8c92-06957031f42a")
-		(property "Reference" "Q8"
-			(at 227.33 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N3904"
-			(at 227.33 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92L_HandSolder"
-			(at 227.33 34.925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 232.41 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 232.41 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f3569438-c6d7-4dc8-99cc-14fe721a1d92")
-		)
-		(pin "3"
-			(uuid "626fa015-ed96-4176-a386-1ef95c1ba8ba")
-		)
-		(pin "1"
-			(uuid "f9f171f3-e2b7-423d-8fc6-074f439ecef9")
-		)
-		(instances
-			(project "Transistor_Calculator_SW_Panel"
-				(path "/5be18d76-227e-4602-ae3f-7639f6fbbc7a"
-					(reference "Q8")
 					(unit 1)
 				)
 			)
