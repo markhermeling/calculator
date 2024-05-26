@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,8.0.2-1*%
+%TF.CreationDate,2024-05-13T20:57:24-04:00*%
+%TF.ProjectId,Transistor_Calculator_V2,5472616e-7369-4737-946f-725f43616c63,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 8.0.2-1) date 2024-05-13 20:57:24*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X12000000Y-12000000D02*
+X107000000Y-12000000D01*
+X107000000Y-72000000D01*
+X12000000Y-72000000D01*
+X12000000Y-12000000D01*
+M02*
