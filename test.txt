@@ -1,0 +1,184 @@
+#!/usr/bin/env bash
+#######################################
+# Pre-installation Checks Script
+#
+# This script performs pre-installation checks for CodeSentry.
+# It gathers system information such as CPU details, memory, disk usage,
+# OS version, network information, and firewall status.
+#
+# The collected information is stored in cse-preinstall-checks.txt.
+#######################################
+
+# Function to display script usage
+usage() {
+    cat <<USAGE
+Usage: \$(basename "\$0")
+
+This script runs pre-installation checks for CodeSentry, generating a cse-preinstall-checks.txt file. The file will be overwritten with each subsequent run.
+
+Options:
+  --help            | Display this message and exit
+USAGE
+}
+
+# Set the output file for pre-installation checks
+outfile=cse-preinstall-checks.txt
+
+# Function to print formatted headers to output file
+print_header() {
+    local header_text=$1
+    cat <<HEADER >> "$outfile"
+
+# -----------------------------------------------------------------------------
+# $header_text
+# -----------------------------------------------------------------------------
+HEADER
+}
+
+# Function to prettily execute commands
+pretty_execute() {
+    local cmd=$1
+    echo "- Running $cmd command..."
+    sleep 0.4
+    eval "$cmd" >> "$outfile" 2>&1
+}
+
+# Function to clear output file if confirmed by user
+clear_output_file() {
+    read -p "The file '$outfile' already exists. Do you want to overwrite it? (y/n): " choice
+    case "$choice" in
+        y|Y )
+            > "$outfile"
+            echo "File '$outfile' cleared."
+            ;;
+        n|N )
+            echo "Exiting the script without overwriting the file."
+            exit 0
+            ;;
+        * )
+            echo "Invalid choice. Appending to existing file by default."
+            ;;
+    esac
+}
+
+# Check if the output file exists and prompt user for overwrite confirmation
+if [ -f "$outfile" ]; then
+    clear_output_file
+fi
+
+# Array of required commands
+required_commands=("lscpu" "lsblk" "systemctl" "netstat" "ss" "curl" "hostname" "ping" "cat" "df" "free" "lsmod" "systemctl")
+
+# Running pre-installation checks
+echo "Date and Time: $(date +'%Y-%m-%d %T')" | tee -a "$outfile"
+echo "Hostname: $(hostname)" | tee -a "$outfile"
+echo "- Running pre-installation checks"
+
+# -----------------------------------------------------------------------------
+# Details on cores: lscpu
+# -----------------------------------------------------------------------------
+print_header "Details on cores: lscpu"
+pretty_execute "sudo lscpu"
+
+# -----------------------------------------------------------------------------
+# Available free RAM: free -h
+# -----------------------------------------------------------------------------
+print_header "Available free RAM: free -h"
+pretty_execute "free -h"
+
+# -----------------------------------------------------------------------------
+# OS version and flavor: cat /etc/os-release
+# -----------------------------------------------------------------------------
+print_header "OS version and flavor: cat /etc/os-release"
+pretty_execute "cat /etc/os-release"
+
+# -----------------------------------------------------------------------------
+# System Information: uname -a
+# -----------------------------------------------------------------------------
+print_header "System Information: uname -a"
+pretty_execute "uname -a"
+
+# -----------------------------------------------------------------------------
+# Disk size: df -h
+# -----------------------------------------------------------------------------
+print_header "Disk size: df -h"
+pretty_execute "df -h"
+
+# -----------------------------------------------------------------------------
+# Layout of root and contents on volume: lsblk
+# -----------------------------------------------------------------------------
+print_header "Layout of root and contents on volume: lsblk"
+pretty_execute "lsblk"
+
+# -----------------------------------------------------------------------------
+# Security modules installed: lsmod
+# -----------------------------------------------------------------------------
+print_header "Security modules installed: lsmod"
+pretty_execute "lsmod"
+
+# -----------------------------------------------------------------------------
+# FQDN: hostname --fqdn
+# -----------------------------------------------------------------------------
+print_header "FQDN: hostname --fqdn"
+HOSTMSG="This instance is running in a standard environment. Hostname:"
+HOSTNAME=$(hostname --fqdn)
+echo "$HOSTMSG $HOSTNAME" >> "$outfile" 2>&1
+
+# -----------------------------------------------------------------------------
+# Hostname is routable: ping -c 7 $HOSTNAME
+# -----------------------------------------------------------------------------
+print_header "Hostname is routable: ping -c 5 $HOSTNAME"
+echo "- Running ping -c 5 $HOSTNAME command..."
+ping -c 5 "$HOSTNAME" >> "$outfile" 2>&1
+
+# -----------------------------------------------------------------------------
+# FIPS status: cat /proc/sys/crypto/fips_enabled
+# -----------------------------------------------------------------------------
+print_header "FIPS status: cat /proc/sys/crypto/fips_enabled"
+pretty_execute "cat /proc/sys/crypto/fips_enabled"
+
+# -----------------------------------------------------------------------------
+# Firewalld status: systemctl status firewalld
+# -----------------------------------------------------------------------------
+print_header "Firewalld status: systemctl status firewalld"
+echo "- Running systemctl status firewalld command..."
+systemctl status firewalld &>> "$outfile" || echo "Firewalld not found" >> "$outfile"
+
+# Check for netstat or ss command availability
+if command -v netstat &>/dev/null; then
+    print_header "Check that ports are open: netstat -tuln"
+    pretty_execute "netstat -tuln"
+elif command -v ss &>/dev/null; then
+    print_header "Check that ports are open: ss -tuln"
+    pretty_execute "ss -tuln"
+else
+    >&2 printf "Error: Both netstat and ss commands are missing\n"
+    >&2 usage
+    exit 1
+fi
+
+# Check for iptables command availability
+if ! command -v iptables &>/dev/null; then
+    echo "iptables command not found. Skipping iptables check."
+else
+    # -----------------------------------------------------------------------------
+    # Current iptables rules: iptables -L
+    # -----------------------------------------------------------------------------
+    print_header "Current iptables rules: iptables -L"
+    pretty_execute "sudo iptables -L"
+fi
+
+
+# Install dmidecode for Amazon Linux
+if grep -q "Amazon Linux" /etc/os-release && ! command -v dmidecode &> /dev/null; then
+    echo "Installing dmidecode..."
+    sudo yum install dmidecode -y >> "$outfile" 2>&1
+fi
+
+# Script completed message after checks completion
+echo -e "\n\n"
+echo "+------------------------------------------------------------------------------+"
+echo "   Completed running pre-installation checks - output written to:              "
+echo "    $outfile                                                                    "
+echo "   Kindly forward this to the CodeSentry support team                           "
+echo "+------------------------------------------------------------------------------+"
