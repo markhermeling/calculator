@@ -1,0 +1,35 @@
+mainmenu "Garage Door Controller"
+
+config GARAGE_WIFI_SSID
+	string "WiFi SSID"
+	default ""
+
+config GARAGE_WIFI_PSK
+	string "WiFi Pre-Shared Key"
+	default ""
+
+config GARAGE_MQTT_BROKER
+	string "MQTT broker IPv4 address"
+	default "192.168.1.100"
+
+config GARAGE_MQTT_PORT
+	int "MQTT broker port"
+	default 1883
+
+config GARAGE_MQTT_USER
+	string "MQTT username (empty = no auth)"
+	default ""
+
+config GARAGE_MQTT_PASSWORD
+	string "MQTT password"
+	default ""
+
+config GARAGE_MQTT_CLIENT_ID
+	string "MQTT client ID"
+	default "pico_garage_door"
+
+config GARAGE_PULSE_DURATION_MS
+	int "Relay pulse duration in milliseconds"
+	default 500
+
+source "Kconfig.zephyr"

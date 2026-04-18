@@ -1,0 +1,33 @@
+/*
+ * Wiring (all referenced to Pico W pin numbering):
+ *
+ *  Relay / transistor trigger
+ *  ──────────────────────────
+ *  GP15 (pin 20) ──[1 kΩ]──► 2N3904 Base
+ *  2N3904 Emitter ──────────► Garage opener GND terminal
+ *  2N3904 Collector ────────► Garage opener button terminal
+ *  GND  (pin 38) ───────────► 2N3904 Emitter (shared ground)
+ *
+ *  Optional reed switch (door state sensor)
+ *  ─────────────────────────────────────────
+ *  GP14 (pin 19) ──┬──────── Reed switch ──► GND
+ *                  └──[internal pull-up]
+ *  Closed door = magnet holds reed switch closed → pin LOW
+ */
+
+/ {
+	relay_ctrl {
+		compatible = "gpio-leds";
+		relay_out: relay_out {
+			gpios = <&gpio0 15 GPIO_ACTIVE_HIGH>;
+		};
+	};
+
+	door_inputs {
+		compatible = "gpio-keys";
+		door_sensor_in: door_sensor_in {
+			gpios = <&gpio0 14 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+			label = "Door Sensor";
+		};
+	};
+};
